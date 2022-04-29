@@ -5,7 +5,7 @@
 This is a dirty [Perl](https://www.perl.org/) script that takes a [PostgreSQL](https://www.postgresql.org/) and  generates a postgresql.conf jinja2 template and a defaults vars YAML file. The idea is to use these files in [Ansible](https://github.com/ansible/ansible) roles and playbooks.
 
 ### How to run it?
-In order to run pg\_templatemyconf, you must have installed Perl5 language and the Perl5 Getopt::Declare package.
+In order to run pg\_templatemyconf, you must have installed Perl 5 language and the Perl 5 Getopt::Declare package.
 
 Then you can execute the script:
 ```
