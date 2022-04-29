@@ -63,11 +63,11 @@ while (<CONFIG>) {
 		print TEMPLATE;
 		print TEMPLATE "{% if ( pg_$1 is defined ) %}\n$1 = {{ pg_$1 | default($2) }}\n{% endif %}\n";
 		print DEFAULTS "\# pg_$1: $2\n";
-	}  elsif (/^\#(\w+) = (\w+)$/) {
+	} elsif (/^\#(\w+) = (\w+)$/) {
 		print TEMPLATE;
 		print TEMPLATE "{% if ( pg_$1 is defined ) %}\n$1 = {{ pg_$1 | default('$2') }}\n{% endif %}\n";
 		print DEFAULTS "\# pg_$1: $2\n";
-    	}  elsif (/^\#(\w+) = (\'\S*\')$/) {
+    	} elsif (/^\#(\w+) = (\'\S*\')$/) {
 		print TEMPLATE;
 		print TEMPLATE "{% if ( pg_$1 is defined ) %}\n$1 = '{{ pg_$1 | default($2) }}'\n{% endif %}\n";
 		print DEFAULTS "\# pg_$1: $2\n";
