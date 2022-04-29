@@ -1,5 +1,5 @@
 # pg_templatemyconf
-## Converting default PostgreSQL configurations in Ansible Templates
+## Converting default PostgreSQL configurations in Ansible templates
 
 ### What?
 This is a dirty [Perl](https://www.perl.org/) script that takes a [PostgreSQL](https://www.postgresql.org/) and  generates a postgresql.conf jinja2 template and a defaults vars YAML file. The idea is to use these files in [Ansible](https://github.com/ansible/ansible) roles and playbooks.
@@ -24,7 +24,7 @@ Maybe you are interested in this documentation:
 - [Getop::Declare documentation](https://metacpan.org/pod/Getopt::Declare)
 
 ### Status
-Dirty but functional :-) Maybe in a future I can rewrite it to be more generic for other product configurations with different syntax.
+Dirty but functional :-) Maybe in a future I can rewrite it to be more generic for other software configurations with different syntax.
 
 ### Built With
 
