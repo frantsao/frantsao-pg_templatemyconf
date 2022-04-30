@@ -34,4 +34,4 @@ Dirty but functional :-) Maybe in a future I can rewrite it to be more generic f
 ### About
 ![Simplified BSD License](https://img.shields.io/badge/SimplifiedBSDLicense-orange)
 
-This work is under BSD 2-Clause License a.k.a Simplified BSD License (see see the [LICENSE](LICENSE) file). 
+This work is under BSD 2-Clause License a.k.a Simplified BSD License (see see the [LICENSE](LICENSE) file). The postgresql.conf example include for testing is part of the PostgreSQL project and it is licensed under [its own license](https://www.postgresql.org/about/licence/).
